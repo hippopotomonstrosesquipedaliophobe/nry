@@ -1,6 +1,6 @@
 # Npm RegistrY
 
-[![version](<https://img.shields.io/npm/v/nry.svg?logo=npm&logoColor=rgb(0,0,0)&label=版本号&labelColor=rgb(73,73,228)&color=rgb(0,0,0)>)](https://www.npmjs.com/package/nry) [![issues 提交](<https://img.shields.io/badge/issues-提交-rgb(255,0,63)?logo=github>)](https://github.com/gleanings/nry/issues)
+[![version](<https://img.shields.io/npm/v/nry.svg?logo=npm&logoColor=rgb(0,0,0)&label=版本号&labelColor=rgb(73,73,228)&color=rgb(0,0,0)>)](https://www.npmjs.com/package/nry) [![issues 提交](<https://img.shields.io/badge/issues-提交-rgb(255,0,63)?logo=github>)](https://github.com/hippopotomonstrosesquipedaliophobe/nry/issues)
 
 一个用于 npm、yarn、pnpm registry 切换及管理的工具。
 
@@ -14,7 +14,7 @@ npm install -g nry
 
 ## 使用
 
-本应用使用 [@vvi/command](https://www.npmjs.com/package/@vvi/command) ，所以屏蔽了 `Ctrl + C` 、`Ctrl + D` ，但可采用*双击 `Esc` 退出*。
+~本应用使用 [@vvi/command](https://www.npmjs.com/package/@vvi/command) ，所以屏蔽了 `Ctrl + C` 、`Ctrl + D` ，但可采用*双击 `Esc` 退出*。~
 
 执行能力可能根据当前执行的包管理器有关，
 
@@ -36,6 +36,6 @@ npm install -g nry
 
 ## 状态
 
-此软件包是 `MrMudBean` 生态系统的一部分。
+此软件包是 `MudBean` 生态系统的一部分。
 它使用严格的 TypeScript 编写，并通过 Rollup 构建进行验证。
 虽然单元测试较少，但 API 稳定，并在生产环境中大量使用。

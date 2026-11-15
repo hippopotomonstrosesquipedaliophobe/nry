@@ -11,6 +11,7 @@ if (isNull(packageJsonResponse)) {
 let packageJson = packageJsonResponse.content;
 
 [
+  'jja',
   'scripts',
   'devDependencies',
   'lint-staged',
@@ -23,7 +24,7 @@ packageJson = {
   ...packageJson,
   author: {
     name: '泥豆君',
-    email: 'Mr.MudBean@outlook.com',
+    email: 'MudBean@outlook.com',
     url: 'https://mudbean.cn',
   },
   description: '更替及管理 npm、yarn、pnpm registry',
@@ -35,15 +36,15 @@ packageJson = {
     'THIRD-PARTY-LICENSES.txt',
     'CHANGELOG.md',
   ],
-  keywords: ['nry', 'npm', 'pnpm', 'yarn', 'registry', 'mudbean', 'vvi'],
+  keywords: ['nry', 'npm', 'pnpm', 'yarn', 'registry', 'vvi'],
   homepage: 'https://npms.gleanings.cn/nry',
   bugs: {
-    url: 'https://github.com/gleanings/nry/issues',
-    email: 'Mr.MudBean@outlook.com',
+    url: 'https://github.com/hippopotomonstrosesquipedaliophobe/nry/issues',
+    email: 'MudBean@outlook.com',
   },
   repository: {
     type: 'git',
-    url: 'git+https://github.com/gleanings/nry.git',
+    url: 'git+https://github.com/hippopotomonstrosesquipedaliophobe/nry.git',
   },
   publishConfig: {
     access: 'public',
